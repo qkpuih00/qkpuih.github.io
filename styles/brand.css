@@ -1,0 +1,155 @@
+/*0e1116-f2f4f3-fbfffe-949396-293241
+  Licorice,  Anti-flash-white,  White, Spanish Gray, Gunmetal
+font-family: 'Yeseva One', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Notable', sans-serif;
+font-family: 'Gravitas One', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Darker Grotesque', sans-serif;*/
+html {
+    background-image: url(../images/onix_background_cover.jpg);
+    background-size: cover;
+}
+
+body {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    background-color: transparent;
+    color: #f2f4f3;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+}
+
+header { 
+    margin-bottom: 60px;
+    margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+header figure figcaption {
+    font-style: italic;
+    color: #ff0202;
+}
+
+#topnav {
+    margin-top: 18px;
+    text-align: center;
+    float: right;
+}
+
+#topnav a {
+    margin-right: 20px;
+    padding: 7px;
+    color: #f2f4f3;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+#tagline {
+    text-align: center;
+    padding: 450px;
+}
+
+#tagline h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 30px;
+}
+
+.headline {
+    text-align: center;
+    padding: 80px;
+}
+
+.button {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    color: #f2f4f3;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.button:hover {
+    text-align: center;
+    border-style: none;
+    background-color: #0e1116;
+    color: #f2f4f3;
+    padding: 10px;
+    font-size: 18px;  
+}
+
+main p {
+    font-size: 18px;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row div {
+    margin-right: 60px;
+    background-color: #0e1116;
+    text-align: justify;
+    padding: 30px;
+    color: #f2f4f3;
+}
+
+.row div ul{
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+.row div ul a{
+    padding: 7px;
+    font-size: 20px;
+    color: #f2f4f3;
+    line-height: 100px;
+    border-style: solid;
+    border-width: thin;
+}
+
+.row div ul a:hover{
+    padding: 7px;
+    font-size: 20px;
+    background-color: #293241;
+    color: #f2f4f3;
+    line-height: 100px;
+}
+
+ul {
+    text-decoration: none;
+}
+
+#fizzbuzz {
+    background-color: #0e1116;
+    text-align: left;
+    color: #f2f4f3;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+footer {
+    text-align: center;
+    border-top: solid;
+    border-width: thin;
+    border-color: #f2f4f3 ;
+}
+
+footer a {
+    padding-right: 30px;
+    color: #f2f4f3;
+}

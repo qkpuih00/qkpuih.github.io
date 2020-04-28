@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quyen Kpuih WEB 115 Fizz buzz 1 page</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"><meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="../styles/brand.css">
+</head>
+
+<body>
+<header>
+</header>
+<main>
+<a href="../all_of_fizzbuzz.html" class = "button">Fizzbuzz</a>
+<br>
+<h4 id="greeting" class="center">Welcome to Onix fizzbuzz 1!</h4>
+<form id="fizzbuzz1form">
+    <fieldset>
+        <legend>Fizz Buzz Word</legend>
+        <div>
+            <label for="word1">First Word:</label>
+            <input type="text" id="word1" value="Cool" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="word2">Second Word:</label>
+            <input type="text" id="word2" value="Cat" required="required">
+        </div>
+        <br>
+        <button onclick="displayWords()" type="button">Submit</button>
+    </fieldset>
+</form>
+<br>
+<div id="fizzbuzz">
+  <!--the ouputs is here-->
+</div>
+</main>
+<footer>
+    <div data-include="../components/footer.html"></div>
+    <script src="../scripts/htmlinclude.js"></script>
+    <script src="scripts/fizzbuzz1.js"></script>
+</footer>
+</body>
+</html>

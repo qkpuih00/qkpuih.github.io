@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quyen Kpuih WEB 115 Fizz buzz 0 page</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"><meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="../styles/brand.css">
+</head>
+
+<body>
+<header>
+</header>
+<main>
+<a href="../all_of_fizzbuzz.html" class = "button">Fizzbuzz</a>
+<br>
+<h4 id="greeting" class="center">Welcome to Onix fizzbuzz 0,</h4>
+<form id="userinput">
+    <fieldset>
+        <legend>User Name</legend>
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" value="Quyen" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="middleinitial">Middle Initial:</label>
+            <input type="text" id="middleinitial" value="" maxlength="1" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" value="Kpuih" required="required">
+        </div>
+        <br>
+        <button onclick="displayContent()" type="button">Submit</button>
+    </fieldset>
+</form>
+<br>
+<div id="fizzbuzz">
+  <!--the ouputs is here-->
+</div>
+</main>
+<footer>
+    <div data-include="../components/footer.html"></div>
+    <script src="../scripts/htmlinclude.js"></script>
+    <script src="../scripts/fizzbuzz0.js"></script>
+</footer>
+</body>
+</html>
