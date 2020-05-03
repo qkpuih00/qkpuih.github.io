@@ -19,10 +19,12 @@ function demonstrate() {
             userChoice = parseFloat(userChoice);
             hourNum = parseFloat(hourNum);
             var total = userChoice * hourNum;
+            total = total.toFixed(2);
             alert("Your total cost came to $" + total + " dollar.");
             var coupon = Math.floor(Math.random() * 6);
             alert("A random coupon ranging from $0 - $5 will be deducted from your total")
             var newTotal = total - coupon;
+            newTotal = newTotal.toFixed(2);
             alert("Your new total after a $" + coupon + " dollar deduction is $" + newTotal + " dollar.");
         } else {
             alert("Sorry! There are no location at " + state);
