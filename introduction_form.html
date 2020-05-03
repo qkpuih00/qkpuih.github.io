@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quyen Kpuih WEB 115 Introduction Form Page</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"><meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="styles/brand.css">
+</head>
+<body>
+<header>
+<div data-include="components/header.html"></div>
+</header>
+
+<main>
+    <h3 id="greeting" class="headline">Welcome to the Introduction Form page!</h3>
+    <form id="introduction_form">
+        <fieldset>
+        <legend>Introduction Form</legend>
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" value="Quyen" required="required">
+            <label for="middleinitial">Middle Initial</label>
+            <input type="text" id="middleinitial" value="">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" value="Kpuih" required="required">
+        </div>
+        <br>
+        <div>
+            <label for="personalB">What is your personal background?</label><br>
+            <input type="text" id="personalB" class="text-box" value="I came to America from Vietnam in Dec 2006. I started college here at CPCC In 2015 in the transfered program. I would continue my studies for 2 years but because I was not sure what to pursue I ended up quitting and started working. Now I am a returning student trying to complete web development program." required="required">
+        </div>
+        <div>
+            <label for="professionalB">What is your professional background?</label><br>
+            <input type="text" id="professionalB" class="text-box" value="During my time in school I worked at a sandwich's shop as a server and an event staffing. Both jobs were unfulfillable so now i decided to pursue a career instead of a minimum wage job." required="required">
+        </div>
+        <div>
+            <label for="academicB">What is your academic background?</label><br>
+            <input type="text" id="academicB" class="text-box" value="I am in the web development program" required="required">
+        </div>
+        <div>
+            <label for="computer">What is your primary computer platform?</label><br>
+            <input type="text" id="computer" value="Window" required="required">
+        </div>
+        <div>
+            <label for="courses">Courses I'm taking and why?</label><br>
+            <input type="text" id="courses" class="text-box" value="WEB115: required for my program, CIS110: required for my program, WEB140: required for my program, CSC143: required for my program" required="required">
+        </div>
+        <div>
+            <label for="rememberBy">What is something to remember you by?</label><br>
+            <input type="text" id="rememberBy" class="text-box" value="I got a ticket on new years day" required="required">
+        </div>
+        <div>
+            <label for="extras">Anything else you like to share?</label><br>
+            <input type="text" id="extras" class="text-box" value="My hobby is Aquascaping">
+        </div>
+        <br>
+        <button onclick="displayContent()" type="button">Generate your form!</button>
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <div data-include="components/footer.html"></div>
+</footer>
+<script src="scripts/htmlinclude.js"></script>
+<script src="scripts/introduction_form.js"></script>
+</body>
+</html>
